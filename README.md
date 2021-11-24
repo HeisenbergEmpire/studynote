@@ -1,2 +1,2 @@
-# python-studynote
-python學習筆記
+# studynote
+學習筆記
