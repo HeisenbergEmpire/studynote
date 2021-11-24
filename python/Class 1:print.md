@@ -26,5 +26,21 @@ print(name)
 print（你的名字\n我的姓氏）
 ```
 則結果中顯示為
+&nbsp;
 **你的名字**
+&nbsp;
 **我的姓氏**
+&nbsp;
+另外如果用print（）做一行指令，結果中則出現空行一條
+
+&nbsp;
+
+4.print也可以檢查算式錯誤，例如
+```
+print('Adding number')
+x = 10 + 2
+print('Performing division')
+y = x / 0
+print('Math complete')
+```
+則會在結果中出現除數不能等於0的錯誤提示，算式沒有問題則不會提示
