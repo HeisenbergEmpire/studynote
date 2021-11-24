@@ -11,6 +11,6 @@ print(hello world)
 
   即會在結果中顯示 **hello world**
 
-&nbsp；
+&nbsp;
 
 2.print也可以print出一個指令的內容，例如
