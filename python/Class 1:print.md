@@ -18,6 +18,7 @@ print('hello world')
 
 ```
 name = input('你的大名:')
+print('hello')
 print(name)
 ```
 即可在結果中顯示輸入**你的大名：**然後輸入後下一行會出現對應輸入的文字
