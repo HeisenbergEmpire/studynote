@@ -50,4 +50,4 @@ print('Performing division')
 y = x / 0
 print('Math complete')
 ```
-則會在結果中出現除數不能等於0的錯誤提示，算式沒有問題則不會提示
+則會在結果中出現除數不能等於0的錯誤提示，算式沒有問題則不會提示。並且輸入那些“adding number”“performing division”有助于排查debug時可以知道是哪一行有問題
