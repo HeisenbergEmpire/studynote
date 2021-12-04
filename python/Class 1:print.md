@@ -1,6 +1,6 @@
 # python學習筆記
 ## 第一課 print(打印）的使用
-1.print顧名思義是打印的意思，即打印框中的內容，例如
+### 1.print顧名思義是打印的意思，即打印框中的內容，例如
 
 ```
 print('hello world')
@@ -26,7 +26,7 @@ print('hello world')
   
 &nbsp;
 
-2.print也可以print出一個指令的內容，例如
+### 2.print也可以print出一個指令的內容，例如
 
 ```
 name = input('你的大名:')
@@ -37,7 +37,7 @@ print(name)
 
 &nbsp;
 
-3.print可以在括號內輸入\n來換行顯示，例如
+### 3.print可以在括號內輸入\n來換行顯示，例如
 
 ```
 print（'你的名字\n我的姓氏'）
@@ -54,7 +54,7 @@ print（'你的名字\n我的姓氏'）
 
 &nbsp;
 
-4.print也可以檢查算式錯誤，例如
+### 4.print也可以檢查算式錯誤，例如
 ```
 print('Adding number')
 x = 10 + 2
