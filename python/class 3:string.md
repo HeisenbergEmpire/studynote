@@ -1,6 +1,6 @@
 # python學習筆記
 ## 第三課 變量詞
-1.變量詞即框括一段字或者數字的代理詞，例如：
+### 1.變量詞即框括一段字或者數字的代理詞，例如：
 ```
 first_name = 'heisenberg'
 ```
@@ -8,7 +8,7 @@ first_name = 'heisenberg'
 
 &nbsp;
 
-2.變量詞之間可以用+號作聯繫，例如：
+### 2.變量詞之間可以用+號作聯繫，例如：
 ```
 first_name = 'heisenberg'
 last_name = 'chueng'
@@ -19,7 +19,7 @@ print('Hello,' + first_name.capitalize()+ ' ' + last_name.capitalize())
 
 &nbsp;
 
-3.變量詞亦方便對變量內容的前後加上命令，例如上面2.的部分，capitalize（）便是首字母大寫的命令，下面再加以演示
+### 3.變量詞亦方便對變量內容的前後加上命令，例如上面2.的部分，capitalize（）便是首字母大寫的命令，下面再加以演示
 ```
 # 以下命令釋義：upper是全大寫，lower是全小寫，capitalize是首字母大寫，count是計算，例子中count的意思為計算a字母在sentence變量值中a出現的次數
 sentence = 'The dog is named Sammy'
@@ -31,7 +31,7 @@ print(sentence.count('a'))
 
 &nbsp;
 
-4.除了在變量詞前後可以加以命令，也可以在變量內容裡面加上命令，例如：
+### 4.除了在變量詞前後可以加以命令，也可以在變量內容裡面加上命令，例如：
 ```
 ming = input('what is your ming?')
 xing = input('what is your xing?')
