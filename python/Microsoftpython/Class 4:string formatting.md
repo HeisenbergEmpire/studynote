@@ -36,8 +36,6 @@ print(output)
 
 ### 3.另外，可以用{}括住變量詞直接插入，僅需在前面加上f或者F代表format（此方法僅可使用于py3及以後版本，但不可用於py3.3.2
 
-<br>
-如下
 ```
 output = f'Hello,{first_name} {last_name}'
 print(output)
