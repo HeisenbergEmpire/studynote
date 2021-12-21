@@ -40,6 +40,7 @@ print(output)
 output = f'Hello,{first_name} {last_name}'
 print(output)
 ```
+**当f里面每个变量词中间有空格便有空格，没有便没有**
 
 &nbsp;
 
