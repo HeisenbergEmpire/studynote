@@ -123,4 +123,4 @@ print('Yout initials are:' + get_initial(firstname) + get_initial(lastname))
 
 &nbsp;
 
-# 平時在def段之前加上註釋
+# 平時記得在def段之前加上註釋
