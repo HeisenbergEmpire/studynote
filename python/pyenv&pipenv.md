@@ -70,3 +70,7 @@ pipenv shell
 ```
 pipenv install 第三方庫包名
 ```
+如果你有一堆庫包需要安裝，你可以把庫包名全部羅列在一個txt文件中（通常此文件取名為requirements.txt），然後終端機中輸入
+```
+pipenv install -r 文件名.txt
+```
