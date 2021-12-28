@@ -123,4 +123,24 @@ print('Yout initials are:' + get_initial(firstname) + get_initial(lastname))
 
 &nbsp;
 
-# 平時記得在def段之前加上註釋
+### 5.本課作業
+
+```
+# 設計一個函數，包含兩個數字，當輸入值為加（add）時，結果為加
+# 當輸入值為減（subtract）時，結果為減，輸入至非加或減時則提示輸入值並非加或減
+def calculator(firstnumber, secondnumber, operation):
+    if operation.upper() == 'ADD':
+        return(float(firstnumber) + float(secondnumber))
+    elif operation.upper() =='SUBTRACT':
+        return(float(firstnumber) - float(secondnumber))
+    else:
+        return('Invalid operation please specify ADD or SUBTRACT')
+
+firstnumber = input('The first number is:')
+secondnumber = input('The second number is:')
+word = input('What do you want to do?:')
+
+print('Adding 6 + 4 = ' + str(calculator(firstnumber,secondnumber,word)))
+```
+
+# 平時在def函數前面記得加上註釋好讓自己看明白
