@@ -265,7 +265,7 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 
 &nbsp;
 
-### 最后是[requires]，里面记录了基础需求，也就是会被必然下载的部分
+### 最后是`[requires]`，里面记录了基础需求，也就是会被必然下载的部分
 
 ```
 此时会有一个疑问:我安装的flask目前是最新的，但是移植给别人时可能已经不是最新的了，这不就会出问题嘛。这时pipfile.lock的作用就来了
