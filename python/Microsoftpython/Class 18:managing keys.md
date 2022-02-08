@@ -21,7 +21,7 @@ DATABASE=Sample_Connection_String
 #### 步驟二，用pipenv安裝dotenv庫包，請確保vscode使用的與dotenv所在的虛擬環境一致（即dotenv所在的site-package位置）
 
 ```
-pipenv install dotenv
+pipenv install python-dotenv
 ```
 
 用vscode的話，左下角運行環境會顯示你python 版本號（'目前py文件所在的文件夾名&pipenv編碼'：pipenv）
