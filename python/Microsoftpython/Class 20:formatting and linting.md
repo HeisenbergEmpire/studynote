@@ -66,7 +66,7 @@ python enable linter
 文檔字符串主要用於說明某個參數或者函數，作一個說明，因為有時代碼量多了很容易搞混,例子如下：
 
 ```
-ef print_hello(name: str) -> str:
+def print_hello(name: str) -> str:
     """
     Greets the user by name
 
