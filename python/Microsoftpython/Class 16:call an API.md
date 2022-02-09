@@ -17,7 +17,7 @@
 ### 2.使用request庫獲取API服務的語言格式
 
 ```
-requests.get/post(address(url),params,data,http_headers,
+r = requests.get/post(address(url),params,data,http_headers,
                   timeout,verify,allow_redirects,cookies,
                   function_parameters,message_body)
 ```
