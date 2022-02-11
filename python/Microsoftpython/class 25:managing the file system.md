@@ -80,7 +80,7 @@ for child in parent.iterdir():
 這裡意思是查詢目標是當前環境下的xxx.txt
 
 ```
-demo_file = Path(Path.joinpath(cwd, "Pipfile.lock"))
+demo_file = Path(Path.joinpath(cwd, "xxx.txt"))
 ```
 
 &nbsp;
