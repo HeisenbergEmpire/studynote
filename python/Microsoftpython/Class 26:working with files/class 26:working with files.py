@@ -15,7 +15,7 @@
 # b: binary mode, 二进制模式
 # t: text mode, 文本模式（如圖片等非文字的）
 
-stream = open('heisenberg.txt')
+stream = open('xxx.txt')
 
 # 以下操作通過看文件是否有權限被讀取、其中有沒有奇怪的字符不可被讀取，以此減少錯誤的發生
 # readline那一行因上接read(1)，所以會從第一行的第二個字母讀起，直到遇到換行符為止，就像是read(1)使文本內光標停在了第一個字母之後
@@ -29,24 +29,24 @@ print(stream.closed) # 是否已经关闭
 
 print()
 
-stream1 = open('write.txt', 'wt') # 在指定的文件中覆蓋寫入
-stream1.write('H') # 寫入一個字符
-stream1.writelines(['ello\n', 'World\n']) # 寫入一行字符，與之前一樣上行命令結束時光標在第一個字母之後，\n為換行符
+stream = open('xxx.txt', 'wt') # 在指定的文件中覆蓋寫入
+stream.write('H') # 寫入一個字符
+stream.writelines(['ello\n', 'World\n']) # 寫入一行字符，與之前一樣上行命令結束時光標在第一個字母之後，\n為換行符
 names = ['Heisenberg', 'White'] # 以列表形式創建一個對象
-stream1.writelines(names) # 寫入一個對象
-stream1.write('\n') # 寫入一個換行符
-stream1.writelines('\n'.join(names)) # 寫入一個對象，對象列表中每一個詞都會換行一次
-stream1.close()
+stream.writelines(names) # 寫入一個對象
+stream.write('\n') # 寫入一個換行符
+stream.writelines('\n'.join(names)) # 寫入一個對象，對象列表中每一個詞都會換行一次
+stream.close()
 
 print()
 
-stream2 = open('demo.txt', 'wt')
-stream2.write('demo!')
-stream2.seek(0) # 將光標移到文件的第一個字符之前
-stream2.write('cool')
+stream = open('xxx.txt', 'wt')
+stream.write('demo!')
+stream.seek(0) # 將光標移到文件的第一個字符之前
+stream.write('cool')
 
 # 將上面緩衝區（文件流）的內容寫入文件，即demo！至cool部分，之後清理緩衝區
 # 用處是相當與寫入一大堆內容的時候，臨時“暫存”保存一下文件，並且刷新緩衝區，以免系統不穩定時，造成文件資料損毀
 # 且可以在自己錄入的時候，另一端可以看到我flush()之前的內容，因已經“暫存”了，不過如果最終沒有執行close()，依然會被清空，因沒有被實際保存
-stream2.flush()
-stream2.close() # 這裡的關閉與之前的不同，因為這裡會最後先刷新緩衝區，將餘下的內容寫入文件，再關閉文件
+stream.flush()
+stream.close() # 這裡的關閉與之前的不同，因為這裡會最後先刷新緩衝區，將餘下的內容寫入文件，再關閉文件
