@@ -32,7 +32,7 @@ for child in parent.iterdir():
 
 print()
 # 以下為檢測文件信息的一系列方法，這裡意思是查詢目標是當前環境下的xxx.txt
-demo_file = Path(Path.joinpath(cwd, "Pipfile.lock"))
+demo_file = Path(Path.joinpath(cwd, "xxx.txt"))
 # 查詢文件名
 print('\nfile name:' + demo_file.name)
 # 查詢文件後綴
