@@ -11,7 +11,7 @@
 在日常中，如果我們開啟文件流運作（I：O），一定要注意關閉（close），不然下次打開會出現錯誤
 
 ```
-stream = open('text.txt', 'wt')
+stream = open('xxx.txt', 'wt')
 stream.write('Lorem ipsum dolar')
 stream.close() # 非常重要，關閉流
 ```
@@ -24,7 +24,7 @@ stream.close() # 非常重要，關閉流
 
 ```
 try:
-    stream = open('text.txt', 'wt')
+    stream = open('xxx.txt', 'wt')
     stream.write('Lorem ipsum dolar')
 finally:
     stream.close() # 再次提示，非常重要，關閉流
@@ -35,6 +35,6 @@ finally:
 如果要簡便一些，我們可以使用`with`來處理，這樣就不用自己關閉流了，也有`try-finally`的效果
 
 ```
-with open('text.txt', 'wt') as stream:
+with open('xxx.txt', 'wt') as stream:
     stream.write('Say my name:Heisenberg')
 ```
