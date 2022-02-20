@@ -2,8 +2,7 @@
 
 ## 1.pyenv
 
-### pyenv是管理某文件使用什麼python版本的工具，  
-其條件是必須要用pyenv安裝的python版本才能被pyenv管理，首先是安裝pyenv
+### pyenv是管理某文件使用什麼python版本的工具，其條件是必須要用pyenv安裝的python版本才能被pyenv管理，首先是安裝pyenv
 
 ```
 brew install pyenv
@@ -754,8 +753,6 @@ man page 說明:
 &nbsp;
 
 #### 1.最簡單的方法是剛才講到的，`pip --version`(或是pip -V)會顯示目前這個 pip 是跑哪一個`site-packages`下的`pip`package
-
-<br>
 
 這個路徑就是 install 時會放的 dir
 
