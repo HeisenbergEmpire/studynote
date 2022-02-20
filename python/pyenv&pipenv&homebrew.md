@@ -2,7 +2,8 @@
 
 ## 1.pyenv
 
-### pyenv是管理某文件使用什麼python版本的工具，其條件是必須要用pyenv安裝的python版本才能被pyenv管理，首先是安裝pyenv
+### pyenv是管理某文件使用什麼python版本的工具，  
+其條件是必須要用pyenv安裝的python版本才能被pyenv管理，首先是安裝pyenv
 
 ```
 brew install pyenv
