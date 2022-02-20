@@ -6,7 +6,8 @@
 
 &nbsp;
 
-以下先從for循環講起,意思為按順序打印出name變量中每一個值，直到打印完畢，終止
+以下先從for循環講起,意思為按順序打印出name變量中每一個值，  
+直到打印完畢，終止
 
 ```
 for name in ['Heisenberg', 'White', 'Walter', 'Jesse', 'Gustavo']:
